@@ -1,0 +1,15 @@
+main: es.meriland.SpaghettiCode
+name: SpaghettiCode
+author: Abortos
+version: 1.0
+description: SpaghettiCode Spigot plugin
+api-version: 1.16
+commands:
+  mask:
+    usage: /<command>
+    aliases:
+      - mascarilla
+      - damemascarilla
+      - getmask
+      - mascara
+      - otiaqueincomodoesto
