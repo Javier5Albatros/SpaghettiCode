@@ -65,10 +65,10 @@ public class NearbyPlayerTracker {
                 Messager.sendMessage(player, "No deberías acercarte a los demás...");
                 break;
             case 2:
-                Messager.sendMessage(player, "Te estamos avisando, a la siguiente te cae un evalúa por payaso");
+                Messager.sendMessage(player, "Te estamos avisando, a la siguiente te cae un evalúa");
                 break;
             case 3:
-                Messager.sendMessage(player, "Parece que eres más duro que Análisis... Te vamos a hacer una derivada por partes");
+                Messager.sendMessage(player, "Parece que eres más duro que Algorítmica... Y mira que vas por la tercera matrícula");
                 break;
             case 4:
                 Messager.sendMessage(player, "*ETSISI Enfurecida intensifies*");
@@ -76,10 +76,10 @@ public class NearbyPlayerTracker {
             case 5:
                 Messager.sendMessage(player, "Tú te lo has ganado. Segunda Matrícula para ti, tontito");
                 player.setHealth(0);
-                Messager.broadcastMessage(player.getDisplayName() + " &ces un puto terrorista. Ha sido atado y vacunado por Fernando Simón.");
+                Messager.broadcastMessage(player.getDisplayName() + " &ces un terrorista. Ha sido atado y vacunado por Fernando Simón");
                 break;
             default:
-                Messager.sendMessage(player, "Tú eres un poco tonto no?");
+                Messager.sendMessage(player, "Tú eres un poco pesado no?");
                 break;
         }
     }

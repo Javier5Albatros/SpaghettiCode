@@ -29,12 +29,12 @@ public class PlayerMoveListener implements Listener {
     public void onPlayerMove(PlayerMoveEvent event) {
         Player player = event.getPlayer();
         List<Entity> nearbyPlayers = player.getNearbyEntities(distance, distance, distance);
-        checkPlayerGroups(player, nearbyPlayers, 1);
+        checkPlayerGroups(player, nearbyPlayers, 6);
         if(!nbp.isInSet(player)) {
             if (MaskBuilder.isMask(player.getInventory().getHelmet())) {
                 pushPlayer(player, nearbyPlayers, 0.5, 1.3);
             } else {
-                pushPlayer(player, nearbyPlayers, 1.3, 2);
+                pushPlayer(player, nearbyPlayers, 1.3, 2.5);
             }
             nbp.addRemoveSet(player);
         }
